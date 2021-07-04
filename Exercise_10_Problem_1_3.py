@@ -63,6 +63,7 @@ out_fp = None
 out_fp = r"shopping_centers.shp"
 geodata.to_file(out_fp)
 
+
 # TEST CODE
 # Print info about output file
 print("Geocoded output is stored in this file:", out_fp)
